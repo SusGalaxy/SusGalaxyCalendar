@@ -1,1 +1,1 @@
-# SusGalaxyCalendar
+# Sus Galaxy Calendar
