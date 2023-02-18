@@ -3,6 +3,7 @@ sudo apt full-upgrade -y
 sudo apt install -y yad git wget 
 
 mkdir $HOME/susgalaxyapps
+cd $HOME/susgalaxyapps
 wget https://raw.githubusercontent.com/SusGalaxy/SusGalaxyCalendar/main/gui
 wget https://github.com/SusGalaxy/SusGalaxyCalendar/raw/main/susgalaxy.png
 
