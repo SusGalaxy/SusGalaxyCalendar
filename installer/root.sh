@@ -25,4 +25,4 @@ cp -f ~/.local/share/applications/susgalaxycalendar.desktop ~/Desktop
 
 chmod 755 ~/Desktop/susgalaxycalendar.desktop
 
-sudo rm $HOME/root.sh
+rm $HOME/root.sh
