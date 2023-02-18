@@ -24,6 +24,5 @@ gio set ~/.local/share/applications/susgalaxycalendar.desktop "metadata::trusted
 cp -f ~/.local/share/applications/susgalaxycalendar.desktop ~/Desktop
 
 chmod 755 ~/Desktop/susgalaxycalendar.desktop
-gio set ~/Desktop/susgalaxycalendar.desktop "metadata::trusted" yes
 
-rm $HOME/root.sh
+sudo rm $HOME/root.sh
