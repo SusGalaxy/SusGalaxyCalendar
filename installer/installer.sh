@@ -4,6 +4,7 @@ sudo apt install -y yad git wget
 
 mkdir $HOME/susgalaxyapps
 cd $HOME/susgalaxyapps
+mkdir ./calendar
 wget https://raw.githubusercontent.com/SusGalaxy/SusGalaxyCalendar/main/gui
 wget https://github.com/SusGalaxy/SusGalaxyCalendar/raw/main/susgalaxy.png
 
@@ -11,8 +12,8 @@ mkdir -p ~/.local/share/applications
 echo "[Desktop Entry]
 Name=Sus Galaxy Calendar
 Comment=Calendar GUI for Linux
-Exec=$HOME/susgalaxyapps/gui
-Icon=$HOME/susgalaxyapps/susgalaxy.png
+Exec=$HOME/susgalaxyapps/calendar/gui.sh
+Icon=$HOME/susgalaxyapps/calendar/susgalaxy.png
 Terminal=false
 StartupWMClass=Sus-Galaxy-Calendar
 Type=Application
@@ -25,4 +26,4 @@ cp -f ~/.local/share/applications/susgalaxycalendar.desktop ~/Desktop
 
 chmod 755 ~/Desktop/susgalaxycalendar.desktop
 
-rm $HOME/root.sh
+rm $HOME/installer.sh
